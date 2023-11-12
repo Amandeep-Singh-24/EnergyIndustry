@@ -5,7 +5,7 @@
    -- the database used to insert the data into.
    USE EnergyIndustryDB; 
    
-INSERT INTO mailing (MailingId, DeliveryDate, Address) VALUES
+INSERT INTO Mailing (MailingId, DeliveryDate, Address) VALUES
 (1, '1990-01-01', '123 Alice St'),
 (2, '1992-02-15', '456 Bob Rd'),
 (3, '2000-05-25', '789 Charlie Ln');
